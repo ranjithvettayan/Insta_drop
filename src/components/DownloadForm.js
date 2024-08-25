@@ -35,6 +35,9 @@ function DownloadForm() {
     if (!contentType) {
       setMessage('The URL provided is not a valid Instagram post, reel, or story.');
       setLoading(false); 
+      setTimeout(() => {
+        setMessage('');
+      }, 5000);
       return;
     }
 

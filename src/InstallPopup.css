@@ -1,0 +1,63 @@
+.install-popup {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none; /* Hide by default on desktop */
+  }
+  
+  .install-popup-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .install-popup h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .install-popup p {
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .install-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .install-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+  }
+  
+  .close-button:hover {
+    color: #333;
+  }
+  
+  /* Show popup only on mobile devices */
+  @media (max-width: 768px) {
+    .install-popup {
+      display: block;
+    }
+  }
