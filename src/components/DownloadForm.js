@@ -3,6 +3,11 @@ import axios from 'axios';
 import './DownloadForm.css';
 import videoImageVideo from '../assets/images/webpc-passthru.jpg';
 import videoImagepng from '../assets/images/picture1.png';
+import story from '../assets/images/story.png';
+import photo from '../assets/images/photo.png';
+import video from '../assets/images/video.png';
+import reels from '../assets/images/reel.png';
+import igtv from '../assets/images/igtv.png';
 import 'ldrs/ring';
 
 function DownloadForm() {
@@ -86,9 +91,37 @@ function DownloadForm() {
   return (
     <div className="download-form">
       <header>
-        <h1>Instagram Media Download</h1>
-        <h5>Download Instagram Video, Photo, Reels, Stories, IGTV online</h5>
-      </header>
+  <div className='pageTunerWrapper__items'>
+    <div className='pageTunerWrapper__item'>
+      <a href='/'>
+        <img src={video} alt="Video"/><span>Video</span>
+      </a>
+    </div>
+    <div className='pageTunerWrapper__item'>
+      <a href='/'>
+        <img src={photo} alt="instaphoto"/><span>Photo</span>
+      </a>
+    </div>
+    <div className='pageTunerWrapper__item border_400'>
+      <a href='/'>
+        <img src={story} alt="Story-saver"/><span>Story</span>
+      </a>
+    </div>
+    <div className='pageTunerWrapper__item border_mobile'>
+      <a href='/'>
+        <img src={reels} alt="Reels-downloader"/><span>Reels</span>
+      </a>
+    </div>
+    <div className='pageTunerWrapper__item border_none'>
+      <a href='/'>
+        <img src={igtv} alt="IGTV"/><span>IGTV</span>
+      </a>
+    </div>
+  </div>
+  <h1>Instagram Media Download</h1>
+  <h5>Download Instagram Video, Photo, Reels, Stories, IGTV online</h5>
+</header>
+
       <form className='downForm' onSubmit={handleSubmit}>
         <div className="input-container">
           <input

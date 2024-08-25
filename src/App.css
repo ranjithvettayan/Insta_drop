@@ -176,7 +176,7 @@ button:hover {
   }
 
   h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .downForm {
@@ -199,7 +199,7 @@ button:hover {
 
 .features-section h2 {
   font-size: 2rem;
-  color: var(--primary-color);
+  color: #000000;
   margin-bottom: 2rem;
 }
 
@@ -222,6 +222,7 @@ button:hover {
 
 .feature:hover {
   transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .feature h3 {
