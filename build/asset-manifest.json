@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/Insta_drop/static/css/main.f4fad2a5.css",
-    "main.js": "/Insta_drop/static/js/main.a00f4cf1.js",
+    "main.css": "/Insta_drop/static/css/main.f7da6da7.css",
+    "main.js": "/Insta_drop/static/js/main.976fe92f.js",
     "static/media/picture1.png": "/Insta_drop/static/media/picture1.956a87523d0e281a9d77.png",
     "static/media/webpc-passthru.jpg": "/Insta_drop/static/media/webpc-passthru.1838a4671ff8341d79a4.jpg",
     "static/media/download.png": "/Insta_drop/static/media/download.22384bc587b1d796917a.png",
+    "static/media/video.png": "/Insta_drop/static/media/video.825fa04ed0470feedc47.png",
+    "static/media/story.png": "/Insta_drop/static/media/story.d0d7730a947c1176bbbf.png",
+    "static/media/reel.png": "/Insta_drop/static/media/reel.35cbed0b8f7ea53baa2e.png",
+    "static/media/photo.png": "/Insta_drop/static/media/photo.e8b10ae146f686e60899.png",
+    "static/media/igtv.png": "/Insta_drop/static/media/igtv.e446b52cc68108b4d4f5.png",
     "index.html": "/Insta_drop/index.html",
-    "main.f4fad2a5.css.map": "/Insta_drop/static/css/main.f4fad2a5.css.map",
-    "main.a00f4cf1.js.map": "/Insta_drop/static/js/main.a00f4cf1.js.map"
+    "main.f7da6da7.css.map": "/Insta_drop/static/css/main.f7da6da7.css.map",
+    "main.976fe92f.js.map": "/Insta_drop/static/js/main.976fe92f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4fad2a5.css",
-    "static/js/main.a00f4cf1.js"
+    "static/css/main.f7da6da7.css",
+    "static/js/main.976fe92f.js"
   ]
 }

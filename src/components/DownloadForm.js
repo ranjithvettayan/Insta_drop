@@ -93,27 +93,27 @@ function DownloadForm() {
       <header>
   <div className='pageTunerWrapper__items'>
     <div className='pageTunerWrapper__item'>
-      <a href='/'>
+      <a>
         <img src={video} alt="Video"/><span>Video</span>
       </a>
     </div>
     <div className='pageTunerWrapper__item'>
-      <a href='/'>
+      <a>
         <img src={photo} alt="instaphoto"/><span>Photo</span>
       </a>
     </div>
     <div className='pageTunerWrapper__item border_400'>
-      <a href='/'>
+      <a>
         <img src={story} alt="Story-saver"/><span>Story</span>
       </a>
     </div>
     <div className='pageTunerWrapper__item border_mobile'>
-      <a href='/'>
+      <a>
         <img src={reels} alt="Reels-downloader"/><span>Reels</span>
       </a>
     </div>
     <div className='pageTunerWrapper__item border_none'>
-      <a href='/'>
+      <a>
         <img src={igtv} alt="IGTV"/><span>IGTV</span>
       </a>
     </div>
