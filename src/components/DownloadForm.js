@@ -43,11 +43,11 @@ function DownloadForm() {
 
     let apiUrl = '';
     if (contentType === 'reel') {
-      apiUrl = 'http://127.0.0.1:8000/api/download/reel';
+      apiUrl = 'https://insta-scarp.onrender.com/api/download/reel';
     } else if (contentType === 'post') {
-      apiUrl = 'http://127.0.0.1:8000/api/download/post';
+      apiUrl = 'https://insta-scarp.onrender.com/api/download/post';
     } else if (contentType === 'story') {
-      apiUrl = 'http://127.0.0.1:8000/api/download/story';
+      apiUrl = 'https://insta-scarp.onrender.com/api/download/story';
     }
 
     try {
